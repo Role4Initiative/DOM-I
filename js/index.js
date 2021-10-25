@@ -40,3 +40,14 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+
+const nav1 = document.querySelector('a:nth-of-type(1)')
+const nav2 = document.querySelector('a:nth-of-type(2)')
+const nav3 = document.querySelector('a:nth-of-type(3)')
+const nav4 = document.querySelector('a:nth-of-type(4)')
+const nav5 = document.querySelector('a:nth-of-type(5)')
+const nav6 = document.querySelector('a:nth-of-type(6)')
+
+document.querySelector('nav1').appendChild(['nav']['a'])
+
